@@ -5,7 +5,7 @@ body {
   box-sizing: border-box;
   height: 100vh;
   margin: 0;
-  padding: 50px 0 0 80px;
+  padding: 88px 0 0 150px;
 }
 
 .header {
@@ -40,7 +40,7 @@ body {
 }
 
 .main__content {
-  margin-right: 10px;
+  margin-right: 320px;
 }
 
 .main__title {
@@ -138,7 +138,7 @@ body {
 }
 }
 
-@media(max-width: 1920px) {
+@media (min-width: 1800px) and (max-width: 1920px) {
   body {
   background: no-repeat url(img/backgroundimage.jpg);
   width: 100%;
@@ -584,10 +584,12 @@ body {
 #menu__toggle:checked ~ .menu__btn > span::before {
   top: 0;
   transform: rotate(0);
+  background-color: #000;
 }
 #menu__toggle:checked ~ .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
+  background-color: #000;
 }
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
@@ -604,7 +606,8 @@ body {
   height: 26px;
 
   cursor: pointer;
-  z-index: 1;
+  z-index: 5;
+  color: #000;
 }
 .menu__btn > span,
 .menu__btn > span::before,
@@ -640,6 +643,7 @@ body {
   background-color: #fff;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition-duration: .5s;
+  z-index: 1;
 }
 .menu__item {
   position: relative;
