@@ -27,7 +27,7 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .menu__item:hover {
@@ -138,7 +138,8 @@ body {
 }
 }
 
-@media(max-width: 1920px) {
+@media (max-width: 1920px) {
+
   body {
     background: no-repeat url(img/backgroundimage.jpg);
     width: 100%;
@@ -165,6 +166,7 @@ body {
     display: flex;
     align-items: center;
   }
+
   .menu__item {
     text-decoration: none;
     margin-right: 37px;
@@ -225,6 +227,7 @@ body {
   .main__button:hover {
     animation: movement 2s;
   }
+
   @keyframes movement {
     0% {
       transform: translateX(0px);
@@ -312,12 +315,12 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .menu__item:hover {
   color: #D4BEA3;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .main__section {
@@ -449,12 +452,12 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .menu__item:hover {
   color: #D4BEA3;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .main__section {
