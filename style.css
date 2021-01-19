@@ -23,7 +23,7 @@ body {
   text-decoration: none;
   margin-right: 24px;
   font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
-  color: #F8EEE4;
+  color: #f8eee4;
 }
 
 .menu__item:last-child {
@@ -31,7 +31,7 @@ body {
 }
 
 .menu__item:hover {
-  color: #D4BEA3;
+  color: #d4bea3;
   transition: 0.5s;
 }
 
@@ -82,18 +82,23 @@ body {
   0% {
     transform: translateX(0px);
   }
+
   20% {
     transform: translateX(-20px);
   }
+
   40%{
     transform: translateX(20px);
   }
+
   60% {
     transform: translateX(-30px);
   }
+
   80% {
     transform: translateX(30px);
   }
+
   100% {
     transform: translateX(0px);
   }
@@ -126,14 +131,14 @@ body {
   height: 270px;
 }
 
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
 
   .hamburger-menu {
     display: none;
   }
 }
 
-@media(min-width: 1030px) {
+@media (min-width: 1030px) {
 
   .photo_bali_fourth {
     display: none;
@@ -281,7 +286,7 @@ body {
   }
 }
 
-@media(max-width: 1366px) {
+@media (max-width: 1366px) {
 
   body {
     background: no-repeat url(img/backgroundimage.jpg);
@@ -497,7 +502,7 @@ body {
     font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
     text-decoration: none;
     display: inline-block;
-    background: #D4BEA3;
+    background: #d4bea3;
     border-radius: 48px;
     padding: 12px 62px;
     color: #fff;
@@ -561,7 +566,7 @@ body {
   }
 }
 
-@media(max-width: 375px) {
+@media (max-width: 375px) {
 
   body {
     background: url(img/backgroundimagemobile.jpg);
@@ -584,8 +589,8 @@ body {
     height: 44px;
   }
 
-    #menu__toggle {
-  opacity: 0;
+  #menu__toggle {
+    opacity: 0;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
