@@ -67,7 +67,7 @@ body {
   font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
   text-decoration: none;
   display: inline-block;
-  background: #D4BEA3;
+  background: #d4bea3;
   border-radius: 48px;
   padding: 12px 62px;
   color: #fff;
@@ -79,24 +79,24 @@ body {
 }
 
 @keyframes movement {
-0% {
-  transform: translateX(0px);
-}
-20% {
-  transform: translateX(-20px);
-}
-40%{
-  transform: translateX(20px);
-}
-60% {
-  transform: translateX(-30px);
-}
-80% {
-  transform: translateX(30px);
-}
-100% {
-  transform: translateX(0px);
-}
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(-20px);
+  }
+  40%{
+    transform: translateX(20px);
+  }
+  60% {
+    transform: translateX(-30px);
+  }
+  80% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 .photos {
@@ -127,15 +127,17 @@ body {
 }
 
 @media(min-width: 1024px) {
+
   .hamburger-menu {
-  display: none;
-}
+    display: none;
+  }
 }
 
 @media(min-width: 1030px) {
+
   .photo_bali_fourth {
-  display: none;
-}
+    display: none;
+  }
 }
 
 @media (max-width: 1920px) {
@@ -280,284 +282,287 @@ body {
 }
 
 @media(max-width: 1366px) {
+
   body {
-  background: no-repeat url(img/backgroundimage.jpg);
-  width: 100%;
-  background-size: cover;
-  box-sizing: border-box;
-  height: 100vh;
-  margin: 0;
-  padding: 62px 0 0 140px;
-}
+    background: no-repeat url(img/backgroundimage.jpg);
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 62px 0 0 140px;
+  }
 
-.header {
-  margin: 0 80px 110px 0;
-  display: flex;
-  justify-content: space-between;
-}
+  .header {
+    margin: 0 80px 110px 0;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.logo {
-  width: 104px;
-  height: 39px;
-}
+  .logo {
+    width: 104px;
+    height: 39px;
+  }
 
-.menu {
-  display: flex;
-  align-items: center;
-  width: 360px;
-}
+  .menu {
+    display: flex;
+    align-items: center;
+    width: 360px;
+  }
 
-.menu__item {
-  text-decoration: none;
-  margin-right: 26px;
-  font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
-  color: #F8EEE4;
-}
+  .menu__item {
+    text-decoration: none;
+    margin-right: 26px;
+    font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    color: #F8EEE4;
+  }
 
-.menu__item:last-child {
-  margin-right: 0;
-}
+  .menu__item:last-child {
+    margin-right: 0;
+  }
 
-.menu__item:hover {
-  color: #D4BEA3;
-  transition: 0.5s;
-}
+  .menu__item:hover {
+    color: #D4BEA3;
+    transition: 0.5s;
+  }
 
-.main__section {
-  display: flex;
-}
+  .main__section {
+    display: flex;
+  }
 
-.main__content {
-  margin: 0 200px 0 0;
-}
+  .main__content {
+    margin: 0 200px 0 0;
+  } 
 
-.main__title {
-  font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
-  color: #F8EEE4;
-  opacity: 0.4;
-  margin: 0;
-  margin-top: -10px;
-}
+  .main__title {
+    font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
+    color: #F8EEE4;
+    opacity: 0.4;
+    margin: 0;
+    margin-top: -10px;
+  }
 
-.main__subtitle {
-  font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif; 
-  margin: -110px 0 20px 60px;
-  color: #F8EEE4;
-}
+  .main__subtitle {
+    font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif; 
+    margin: -110px 0 20px 60px;
+    color: #F8EEE4;
+  }
 
-.main__text {
-  font: 16px/19px "museo_sans_cyrl300", arial, helvetica, sans-serif;
-  color: #F8EEE4;
-  width: 380px;
-  margin: 0 0 23px 20px;
-}
+  .main__text {
+    font: 16px/19px "museo_sans_cyrl300", arial, helvetica, sans-serif;
+    color: #F8EEE4;
+    width: 380px;
+    margin: 0 0 23px 20px;
+  }
 
-.main__button {
-  font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
-  text-decoration: none;
-  display: inline-block;
-  background: #d4bea3;
-  border-radius: 48px;
-  padding: 12px 62px;
-  color: #fff;
-  margin-left: 20px;
-}
+  .main__button {
+    font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    background: #d4bea3;
+    border-radius: 48px;
+    padding: 12px 62px;
+    color: #fff;
+    margin-left: 20px;
+  }
 
-.main__button:hover {
-  animation: movement 2s;
-}
+  .main__button:hover {
+    animation: movement 2s;
+  }
 
-@keyframes movement {
-0% {
-  transform: translateX(0px);
-}
-20% {
-  transform: translateX(-20px);
-}
-40%{
-  transform: translateX(20px);
-}
-60% {
-  transform: translateX(-30px);
-}
-80% {
-  transform: translateX(30px);
-}
-100% {
-  transform: translateX(0px);
-}
-}
+  @keyframes movement {
+    0% {
+      transform: translateX(0px);
+    }
+    20% {
+      transform: translateX(-20px);
+    }
+    40%{
+      transform: translateX(20px);
+    }
+    60% {
+      transform: translateX(-30px);
+    }
+    80% {
+      transform: translateX(30px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
 
-.photos {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  margin-top: 50px;
-}
+  .photos {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
 
-.photo_bali_first {
-  border-radius: 5px;
-  margin-right: 24px; 
-  width: 225px;
-  height: 300px;
-}
+  .photo_bali_first {
+    border-radius: 5px;
+    margin-right: 24px; 
+    width: 225px;
+    height: 300px;
+  }
 
-.photo_bali_second {
-  border-radius: 5px;
-  margin-right: 24px;
-  width: 202px;
-  height: 270px;
-}
+  .photo_bali_second {
+    border-radius: 5px;
+    margin-right: 24px;
+    width: 202px;
+    height: 270px;
+  }
 
-.photo_bali_third {
-  border-radius: 5px;
-  width: 150px;
-  height: 270px;
-}
+  .photo_bali_third {
+    border-radius: 5px;
+    width: 150px;
+    height: 270px;
+  }
 }
 
 @media (max-width: 1024px) {
+
   body {
-  background: no-repeat url(img/backgroundimage2.jpg);
-  width: 100%;
-  background-size: cover;
-  box-sizing: border-box;
-  height: 100vh;
-  margin: 0;
-  padding: 59px 0 0 40px;
-}
+    background: no-repeat url(img/backgroundimage2.jpg);
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 59px 0 0 40px;
+  }
 
-.header {
-  margin: 5px 36px 110px 0;
-  display: flex;
-  justify-content: space-between;
-}
+  .header {
+    margin: 5px 36px 110px 0;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.logo {
-  width: 105px;
-  height: 40px;
-}
+  .logo {
+    width: 105px;
+    height: 40px;
+  }
 
-.menu {
-  display: flex;
-  align-items: center;
-  width: 360px;
-}
+  .menu {
+    display: flex;
+    align-items: center;
+    width: 360px;
+  }
 
-.menu__item {
-  text-decoration: none;
-  margin-right: 26px;
-  font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
-  color: #F8EEE4;
-}
+  .menu__item {
+    text-decoration: none;
+    margin-right: 26px;
+    font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    color: #F8EEE4;
+  }
 
-.menu__item:last-child {
-  margin-right: 0;
-}
+  .menu__item:last-child {
+    margin-right: 0;
+  }
 
-.menu__item:hover {
-  color: #D4BEA3;
-  transition: 0.5s;
-}
+  .menu__item:hover {
+    color: #D4BEA3;
+    transition: 0.5s;
+  }
 
-.main__section {
-  display: flex;
-}
+  .main__section {
+    display: flex;
+  }
 
-.main__content {
-  margin: 0 61px 0 0;
-}
+  .main__content {
+    margin: 0 61px 0 0;
+  }
 
-.main__title {
-  font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
-  color: #F8EEE4;
-  opacity: 0.4;
-  margin: 0;
-  margin-top: -11px;
-}
+  .main__title {
+    font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
+    color: #F8EEE4;
+    opacity: 0.4;
+    margin: 0;
+    margin-top: -11px;
+  }
 
-.main__subtitle {
-  font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif; 
-  margin: -106px 0 15px 60px;
-  color: #F8EEE4;
-}
+  .main__subtitle {
+    font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif; 
+    margin: -106px 0 15px 60px;
+    color: #F8EEE4;
+  }
 
-.main__text {
-  font: 16px/19px "museo_sans_cyrl300", arial, helvetica, sans-serif;
-  color: #F8EEE4;
-  width: 390px;
-  margin: 0 0 24px 20px;
-}
+  .main__text {
+    font: 16px/19px "museo_sans_cyrl300", arial, helvetica, sans-serif;
+    color: #F8EEE4;
+    width: 390px;
+    margin: 0 0 24px 20px;
+  }
 
-.main__button {
-  font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
-  text-decoration: none;
-  display: inline-block;
-  background: #D4BEA3;
-  border-radius: 48px;
-  padding: 12px 62px;
-  color: #fff;
-  margin-left: 20px;
-}
+  .main__button {
+    font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    background: #D4BEA3;
+    border-radius: 48px;
+    padding: 12px 62px;
+    color: #fff;
+    margin-left: 20px;
+  }
 
-.main__button:hover {
-  animation: movement 2s;
-}
+  .main__button:hover {
+    animation: movement 2s;
+  }
 
-@keyframes movement {
-0% {
-  transform: translateX(0px);
-}
-20% {
-  transform: translateX(-20px);
-}
-40%{
-  transform: translateX(20px);
-}
-60% {
-  transform: translateX(-30px);
-}
-80% {
-  transform: translateX(30px);
-}
-100% {
-  transform: translateX(0px);
-}
-}
+  @keyframes movement {
+    0% {
+      transform: translateX(0px);
+    }
+    20% {
+      transform: translateX(-20px);
+    }
+    40%{
+      transform: translateX(20px);
+    }
+    60% {
+      transform: translateX(-30px);
+    }
+    80% {
+      transform: translateX(30px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
 
-.photos {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  margin-top: 50px;
-}
+  .photos {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
 
-.photo_bali_first {
-  border-radius: 5px;
-  margin-right: 24px; 
-  width: 225px;
-  height: 300px;
-}
+  .photo_bali_first {
+    border-radius: 5px;
+    margin-right: 24px; 
+    width: 225px;
+    height: 300px;
+  }
 
-.photo_bali_second {
-  border-radius: 5px;
-  margin-right: 24px;
-  width: 202px;
-  height: 270px;
-}
+  .photo_bali_second {
+    border-radius: 5px;
+    margin-right: 24px;
+    width: 202px;
+    height: 270px;
+  }
 
-.photo_bali_fourth {
-  border-radius: 5px;
-  width: 39px;
-  height: 270px;
-}
+  .photo_bali_fourth {
+    border-radius: 5px;
+    width: 39px;
+    height: 270px;
+  }
 
-.photo_bali_third {
-  display: none;
-}
+  .photo_bali_third {
+    display: none;
+  }
 }
 
 @media(max-width: 375px) {
+
   body {
     background: url(img/backgroundimagemobile.jpg);
     width: 100%;
@@ -567,171 +572,185 @@ body {
     margin: 0;
     padding: 40px 0 0 17px;
   }
+
   .header {
     margin: 0 30px 100px 25px;
     display: flex;
     justify-content: space-between;
   }
+
   .logo {
     width: 104px;
     height: 44px;
   }
+
     #menu__toggle {
   opacity: 0;
-}
-#menu__toggle:checked ~ .menu__btn > span {
-  transform: rotate(45deg);
-}
-#menu__toggle:checked ~ .menu__btn > span::before {
-  top: 0;
-  transform: rotate(0);
-  background-color: #000;
-}
-#menu__toggle:checked ~ .menu__btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
-  background-color: #000;
-}
-#menu__toggle:checked ~ .menu__box {
-  visibility: visible;
-  right: 0;
-}
-.menu__btn {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 53px;
-  right: 33px;
+  }
 
-  width: 26px;
-  height: 26px;
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
 
-  cursor: pointer;
-  z-index: 5;
-  color: #000;
-}
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  display: block;
-  position: absolute;
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+    background-color: #000;
+  }
 
-  width: 100%;
-  height: 2px;
-  background-color: #FCF5ED;
-  transition-duration: .25s;
-}
-.menu__btn > span::before {
-  content: '';
-  top: -8px;
-}
-.menu__btn > span::after {
-  content: '';
-  top: 8px;
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+    background-color: #000;
+  }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 53px;
+    right: 33px;
+
+    width: 26px;
+    height: 26px;
+
+    cursor: pointer;
+    z-index: 5;
+    color: #000;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+
+    width: 100%;
+    height: 2px;
+    background-color: #FCF5ED;
+    transition-duration: .25s;
+  }
+
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 375px;
+    height: 100%;
+    margin: 0;
+    padding: 186px 0;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .5s;
+    z-index: 1;
+  }
+
+  .menu__item {
+    position: relative;
+    display: block;
+    color: #000;
+    font: bold 30px/36px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    text-decoration: none;
+    transition-duration: .5s;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+
+  .main__section {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .main__content {
+    width: 350px;
+    margin: 0;
+  }
+
+  .main__title {
+    font: 700 170px/220px "pt_serifbold", arial, helvetica, sans-serif;
+    color: #F8EEE4;
+    opacity: 0.4;
+    margin: 0;
+    margin-top: -41px;
+  }
+
+  .main__subtitle {
+    font: 700 60px/78px "pt_serifbold", arial, helvetica, sans-serif; 
+    margin: -75px 0 37px 60px;
+    color: #F8EEE4;
+  }
+
+  .main__text {
+    font: 18px/22px "museo_sans_cyrl300", arial, helvetica, sans-serif;
+    color: #F8EEE4;
+    width: 289px;
+    margin: 0 0 34px 27px;
+    text-align: center;
+  }
+
+  .main__button {
+    font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    background: #d4bea3;
+    border-radius: 48px;
+    padding: 12px 62px;
+    color: #fff;
+    margin-left: 60px;
+  }
+
+  .main__button:hover {
+    animation: movement 2s;
+  }
+
+  @keyframes movement {
+    0% {
+      transform: translateX(0px);
+    }
+    20% {
+      transform: translateX(-20px);
+    }
+    40%{
+      transform: translateX(20px);
+    }
+    60% {
+      transform: translateX(-30px);
+    }
+    80% {
+      transform: translateX(30px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+  .photos {
+    display: none;
+  }
 }
 
-.menu__box {
-  display: block;
-  position: fixed;
-  visibility: hidden;
-  top: 0;
-  right: -100%;
-  width: 375px;
-  height: 100%;
-  margin: 0;
-  padding: 186px 0;
-  list-style: none;
-  background-color: #fff;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  transition-duration: .5s;
-  z-index: 1;
-}
-.menu__item {
-  position: relative;
-  display: block;
-  color: #000;
-  font: bold 30px/36px "museo_sans_cyrl500", arial, helvetica, sans-serif;
-  text-decoration: none;
-  transition-duration: .5s;
-  text-align: center;
-  margin-bottom: 24px;
-}
-.menu__item:hover {
-  background-color: #CFD8DC;
-}
-
-.main__section {
-  display: flex;
-}
-
-.menu {
-  display: none;
-}
-
-.main__content {
-  width: 350px;
-  margin: 0;
-}
-
-.main__title {
-  font: 700 170px/220px "pt_serifbold", arial, helvetica, sans-serif;
-  color: #F8EEE4;
-  opacity: 0.4;
-  margin: 0;
-  margin-top: -41px;
-}
-
-.main__subtitle {
-  font: 700 60px/78px "pt_serifbold", arial, helvetica, sans-serif; 
-  margin: -75px 0 37px 60px;
-  color: #F8EEE4;
-}
-
-.main__text {
-  font: 18px/22px "museo_sans_cyrl300", arial, helvetica, sans-serif;
-  color: #F8EEE4;
-  width: 289px;
-  margin: 0 0 34px 27px;
-  text-align: center;
-}
-
-.main__button {
-  font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
-  text-decoration: none;
-  display: inline-block;
-  background: #d4bea3;
-  border-radius: 48px;
-  padding: 12px 62px;
-  color: #fff;
-  margin-left: 60px;
-}
-
-.main__button:hover {
-  animation: movement 2s;
-}
-
-@keyframes movement {
-0% {
-  transform: translateX(0px);
-}
-20% {
-  transform: translateX(-20px);
-}
-40%{
-  transform: translateX(20px);
-}
-60% {
-  transform: translateX(-30px);
-}
-80% {
-  transform: translateX(30px);
-}
-100% {
-  transform: translateX(0px);
-}
-}
-
-.photos {
-  display: none;
-}
-}
