@@ -198,7 +198,7 @@ body {
 
   .main__title {
     font: 700 280px/362px "pt_serifbold", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     opacity: 0.4;
     margin: 0;
   }
@@ -206,12 +206,12 @@ body {
   .main__subtitle {
     font: 700 98px/127px "pt_serifbold", arial, helvetica, sans-serif;
     margin: -140px 7px 22px 80px;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__text {
     font: 22px/27px "museo_sans_cyrl300", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     margin: 0 0 35px 25px;
     width: 540px;
     line-height: 25px;
@@ -320,7 +320,7 @@ body {
     text-decoration: none;
     margin-right: 26px;
     font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .menu__item:last-child {
@@ -328,7 +328,7 @@ body {
   }
 
   .menu__item:hover {
-    color: #D4BEA3;
+    color: #d4bea3;
     transition: 0.5s;
   }
 
@@ -338,11 +338,11 @@ body {
 
   .main__content {
     margin: 0 200px 0 0;
-  } 
+  }
 
   .main__title {
     font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     opacity: 0.4;
     margin: 0;
     margin-top: -10px;
@@ -351,12 +351,12 @@ body {
   .main__subtitle {
     font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif;
     margin: -110px 0 20px 60px;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__text {
     font: 16px/19px "museo_sans_cyrl300", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     width: 380px;
     margin: 0 0 23px 20px;
   }
@@ -411,7 +411,7 @@ body {
 
   .photo_bali_first {
     border-radius: 5px;
-    margin-right: 24px; 
+    margin-right: 24px;
     width: 225px;
     height: 300px;
   }
@@ -462,7 +462,7 @@ body {
     text-decoration: none;
     margin-right: 26px;
     font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .menu__item:last-child {
@@ -470,7 +470,7 @@ body {
   }
 
   .menu__item:hover {
-    color: #D4BEA3;
+    color: #d4bea3;
     transition: 0.5s;
   }
 
@@ -484,7 +484,7 @@ body {
 
   .main__title {
     font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     opacity: 0.4;
     margin: 0;
     margin-top: -11px;
@@ -493,12 +493,12 @@ body {
   .main__subtitle {
     font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif;
     margin: -106px 0 15px 60px;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__text {
     font: 16px/19px "museo_sans_cyrl300", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     width: 390px;
     margin: 0 0 24px 20px;
   }
@@ -706,7 +706,7 @@ body {
 
   .main__title {
     font: 700 170px/220px "pt_serifbold", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     opacity: 0.4;
     margin: 0;
     margin-top: -41px;
@@ -715,12 +715,12 @@ body {
   .main__subtitle {
     font: 700 60px/78px "pt_serifbold", arial, helvetica, sans-serif;
     margin: -75px 0 37px 60px;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__text {
     font: 18px/22px "museo_sans_cyrl300", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     width: 289px;
     margin: 0 0 34px 27px;
     text-align: center;
