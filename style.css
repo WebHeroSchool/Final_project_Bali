@@ -53,7 +53,7 @@ body {
 .main__subtitle {
   font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif; 
   margin: -110px 0 0 60px;
-  color: #F8EEE4;
+  color: #f8eee4;
 }
 
 .main__text {
@@ -113,7 +113,7 @@ body {
 
 .photo_bali_first {
   border-radius: 5px;
-  margin-right: 24px; 
+  margin-right: 24px;
   width: 225px;
   height: 300px;
 }
@@ -132,21 +132,18 @@ body {
 }
 
 @media (min-width: 1024px) {
-
   .hamburger-menu {
     display: none;
   }
 }
 
 @media (min-width: 1030px) {
-
   .photo_bali_fourth {
     display: none;
   }
 }
 
 @media (max-width: 1920px) {
-
   body {
     background: no-repeat url(img/backgroundimage.jpg);
     width: 100%;
@@ -178,7 +175,7 @@ body {
     text-decoration: none;
     margin-right: 37px;
     font: 22px/27px "museo_sans_cyrl500", arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .menu__item:last-child {
@@ -271,7 +268,7 @@ body {
 
   .photo_bali_first {
     border-radius: 5px;
-    margin-right: 33px; 
+    margin-right: 33px;
     width: 317px;
     height: 421px;
   }
@@ -292,7 +289,6 @@ body {
 }
 
 @media (max-width: 1366px) {
-
   body {
     background: no-repeat url(img/backgroundimage.jpg);
     width: 100%;
@@ -435,7 +431,6 @@ body {
 }
 
 @media (max-width: 1024px) {
-
   body {
     background: no-repeat url(img/backgroundimage2.jpg);
     width: 100%;
@@ -582,7 +577,6 @@ body {
 }
 
 @media (max-width: 375px) {
-
   body {
     background: url(img/backgroundimagemobile.jpg);
     width: 100%;
@@ -675,8 +669,8 @@ body {
     padding: 186px 0;
     list-style: none;
     background-color: #fff;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-    transition-duration: .5s;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.5s;
     z-index: 1;
   }
 
@@ -765,6 +759,7 @@ body {
     80% {
       transform: translateX(30px);
     }
+    
     100% {
       transform: translateX(0);
     }
