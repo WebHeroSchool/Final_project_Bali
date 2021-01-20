@@ -45,7 +45,7 @@ body {
 
 .main__title {
   font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
-  color: #F8EEE4;
+  color: #f8eee4;
   opacity: 0.4;
   margin: 0;
 }
@@ -80,14 +80,14 @@ body {
 
 @keyframes movement {
   0% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 
   20% {
     transform: translateX(-20px);
   }
 
-  40%{
+  40% {
     transform: translateX(20px);
   }
 
@@ -100,7 +100,7 @@ body {
   }
 
   100% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
 
@@ -237,22 +237,27 @@ body {
 
   @keyframes movement {
     0% {
-      transform: translateX(0px);
+      transform: translateX(0);
     }
+
     20% {
       transform: translateX(-20px);
     }
-    40%{
+
+    40% {
       transform: translateX(20px);
     }
+
     60% {
       transform: translateX(-30px);
     }
+
     80% {
       transform: translateX(30px);
     }
+
     100% {
-      transform: translateX(0px);
+      transform: translateX(0);
     }
   }
 
@@ -377,22 +382,27 @@ body {
 
   @keyframes movement {
     0% {
-      transform: translateX(0px);
+      transform: translateX(0);
     }
+
     20% {
       transform: translateX(-20px);
     }
-    40%{
+
+    40% {
       transform: translateX(20px);
     }
+
     60% {
       transform: translateX(-30px);
     }
+
     80% {
       transform: translateX(30px);
     }
+
     100% {
-      transform: translateX(0px);
+      transform: translateX(0);
     }
   }
 
@@ -515,22 +525,27 @@ body {
 
   @keyframes movement {
     0% {
-      transform: translateX(0px);
+      transform: translateX(0);
     }
+
     20% {
       transform: translateX(-20px);
     }
-    40%{
+
+    40% {
       transform: translateX(20px);
     }
+
     60% {
       transform: translateX(-30px);
     }
+
     80% {
       transform: translateX(30px);
     }
+
     100% {
-      transform: translateX(0px);
+      transform: translateX(0);
     }
   }
 
@@ -732,22 +747,27 @@ body {
 
   @keyframes movement {
     0% {
-      transform: translateX(0px);
+      transform: translateX(0);
     }
+
     20% {
       transform: translateX(-20px);
     }
-    40%{
+
+    40% {
       transform: translateX(20px);
     }
+
     60% {
       transform: translateX(-30px);
     }
+
     80% {
       transform: translateX(30px);
     }
+    
     100% {
-      transform: translateX(0px);
+      transform: translateX(0);
     }
   }
 
