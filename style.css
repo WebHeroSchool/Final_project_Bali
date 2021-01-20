@@ -339,7 +339,7 @@ body {
   .main__content {
     margin: 0 200px 0 0;
   }
-  
+
   .main__title {
     font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
     color: #f8eee4;
@@ -761,6 +761,7 @@ body {
     80% {
       transform: translateX(30px);
     }
+
     100% {
       transform: translateX(0);
     }
