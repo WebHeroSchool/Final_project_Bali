@@ -58,7 +58,7 @@ body {
 
 .main__text {
   font: 16px/19px "museo_sans_cyrl300", arial, helvetica, sans-serif;
-  color: #F8EEE4;
+  color: #f8eee4;
   width: 380px;
   margin-left: 20px;
 }
@@ -183,7 +183,7 @@ body {
   }
 
   .menu__item:hover {
-    color: #D4BEA3;
+    color: #d4bea3;
     transition: 0.5s;
   }
 
@@ -680,7 +680,7 @@ body {
     color: #000;
     font: bold 30px/36px "museo_sans_cyrl500", arial, helvetica, sans-serif;
     text-decoration: none;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
     text-align: center;
     margin-bottom: 24px;
   }
