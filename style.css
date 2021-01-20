@@ -51,7 +51,7 @@ body {
 }
 
 .main__subtitle {
-  font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif; 
+  font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif;
   margin: -110px 0 0 60px;
   color: #f8eee4;
 }
@@ -204,7 +204,7 @@ body {
   }
 
   .main__subtitle {
-    font: 700 98px/127px "pt_serifbold", arial, helvetica, sans-serif; 
+    font: 700 98px/127px "pt_serifbold", arial, helvetica, sans-serif;
     margin: -140px 7px 22px 80px;
     color: #F8EEE4;
   }
@@ -349,7 +349,7 @@ body {
   }
 
   .main__subtitle {
-    font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif; 
+    font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif;
     margin: -110px 0 20px 60px;
     color: #F8EEE4;
   }
@@ -491,7 +491,7 @@ body {
   }
 
   .main__subtitle {
-    font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif; 
+    font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif;
     margin: -106px 0 15px 60px;
     color: #F8EEE4;
   }
@@ -607,15 +607,17 @@ body {
   }
 
   #menu__toggle:checked ~ .menu__btn > span::before {
-    top: 0;
     transform: rotate(0);
     background-color: #000;
+    top: -25px;
+    right: 10px;
   }
 
   #menu__toggle:checked ~ .menu__btn > span::after {
-    top: 0;
     transform: rotate(90deg);
     background-color: #000;
+    top: -25px;
+    right: 10px;
   }
 
   #menu__toggle:checked ~ .menu__box {
@@ -711,7 +713,7 @@ body {
   }
 
   .main__subtitle {
-    font: 700 60px/78px "pt_serifbold", arial, helvetica, sans-serif; 
+    font: 700 60px/78px "pt_serifbold", arial, helvetica, sans-serif;
     margin: -75px 0 37px 60px;
     color: #F8EEE4;
   }
@@ -759,6 +761,7 @@ body {
     80% {
       transform: translateX(30px);
     }
+    
     100% {
       transform: translateX(0);
     }
