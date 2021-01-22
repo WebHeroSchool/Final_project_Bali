@@ -1,0 +1,770 @@
+body {
+  background: no-repeat url(img/backgroundimage.jpg);
+  width: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  padding: 88px 0 0 150px;
+}
+
+.header {
+  margin: 0 80px 110px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  text-decoration: none;
+  margin-right: 24px;
+  font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+  color: #f8eee4;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  color: #d4bea3;
+  transition: 0.5s;
+}
+
+.main__section {
+  display: flex;
+}
+
+.main__content {
+  margin-right: 320px;
+}
+
+.main__title {
+  font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
+  color: #f8eee4;
+  opacity: 0.4;
+  margin: 0;
+}
+
+.main__subtitle {
+  font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif;
+  margin: -110px 0 0 60px;
+  color: #f8eee4;
+}
+
+.main__text {
+  font: 16px/19px "museo_sans_cyrl300", arial, helvetica, sans-serif;
+  color: #f8eee4;
+  width: 380px;
+  margin-left: 20px;
+}
+
+.main__button {
+  font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  background: #d4bea3;
+  border-radius: 48px;
+  padding: 12px 62px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.main__button:hover {
+  animation: movement 2s;
+}
+
+@keyframes movement {
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-20px);
+  }
+
+  40% {
+    transform: translateX(20px);
+  }
+
+  60% {
+    transform: translateX(-30px);
+  }
+
+  80% {
+    transform: translateX(30px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.photos {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.photo_bali_first {
+  border-radius: 5px;
+  margin-right: 24px;
+  width: 225px;
+  height: 300px;
+}
+
+.photo_bali_second {
+  border-radius: 5px;
+  margin-right: 24px;
+  width: 202px;
+  height: 270px;
+}
+
+.photo_bali_third {
+  border-radius: 5px;
+  width: 100px;
+  height: 270px;
+}
+
+@media (min-width: 376px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1030px) {
+  .photo_bali_fourth {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1920px) {
+  body {
+    background: no-repeat url(img/backgroundimage.jpg);
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 65px 0 0 143px;
+  }
+
+  .header {
+    margin: 20px 118px 145px 52px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 155px;
+    height: 57px;
+  }
+
+  .menu {
+    width: 500px;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu__item {
+    text-decoration: none;
+    margin-right: 37px;
+    font: 22px/27px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .menu__item:last-child {
+    margin-right: 1px;
+  }
+
+  .menu__item:hover {
+    color: #d4bea3;
+    transition: 0.5s;
+  }
+
+  .main__section {
+    display: flex;
+  }
+
+  .main__content {
+    margin-left: 53px;
+    margin-right: 277px;
+  }
+
+  .main__title {
+    font: 700 280px/362px "pt_serifbold", arial, helvetica, sans-serif;
+    color: #f8eee4;
+    opacity: 0.4;
+    margin: 0;
+  }
+
+  .main__subtitle {
+    font: 700 98px/127px "pt_serifbold", arial, helvetica, sans-serif;
+    margin: -140px 7px 22px 80px;
+    color: #f8eee4;
+  }
+
+  .main__text {
+    font: 22px/27px "museo_sans_cyrl300", arial, helvetica, sans-serif;
+    color: #f8eee4;
+    margin: 0 0 35px 25px;
+    width: 540px;
+    line-height: 25px;
+  }
+
+  .main__button {
+    font: 22px/26px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    background: #d4bea3;
+    border-radius: 48px;
+    padding: 17px 88px;
+    color: #fff;
+    margin-left: 20px;
+  }
+
+  .main__button:hover {
+    animation: movement 2s;
+  }
+
+  @keyframes movement {
+    0% {
+      transform: translateX(0);
+    }
+
+    20% {
+      transform: translateX(-20px);
+    }
+
+    40% {
+      transform: translateX(20px);
+    }
+
+    60% {
+      transform: translateX(-30px);
+    }
+
+    80% {
+      transform: translateX(30px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .photos {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    margin-right: 24px;
+  }
+
+  .photo_bali_first {
+    border-radius: 5px;
+    margin-right: 33px;
+    width: 317px;
+    height: 421px;
+  }
+
+  .photo_bali_second {
+    border-radius: 5px;
+    margin-right: 33px;
+    width: 284px;
+    height: 380px;
+  }
+
+  .photo_bali_third {
+    border-radius: 5px;
+    width: 215px;
+    height: 380px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+  body {
+    background: no-repeat url(img/backgroundimage.jpg);
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 62px 0 0 140px;
+  }
+
+  .header {
+    margin: 0 80px 110px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 104px;
+    height: 39px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    width: 360px;
+  }
+
+  .menu__item {
+    text-decoration: none;
+    margin-right: 26px;
+    font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .menu__item:last-child {
+    margin-right: 0;
+  }
+
+  .menu__item:hover {
+    color: #d4bea3;
+    transition: 0.5s;
+  }
+
+  .main__section {
+    display: flex;
+  }
+
+  .main__content {
+    margin: 0 200px 0 0;
+  }
+
+  .main__title {
+    font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
+    color: #f8eee4;
+    opacity: 0.4;
+    margin: 0;
+    margin-top: -10px;
+  }
+
+  .main__subtitle {
+    font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif;
+    margin: -110px 0 20px 60px;
+    color: #f8eee4;
+  }
+
+  .main__text {
+    font: 16px/19px "museo_sans_cyrl300", arial, helvetica, sans-serif;
+    color: #f8eee4;
+    width: 380px;
+    margin: 0 0 23px 20px;
+  }
+
+  .main__button {
+    font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    background: #d4bea3;
+    border-radius: 48px;
+    padding: 12px 62px;
+    color: #fff;
+    margin-left: 20px;
+  }
+
+  .main__button:hover {
+    animation: movement 2s;
+  }
+
+  @keyframes movement {
+    0% {
+      transform: translateX(0);
+    }
+
+    20% {
+      transform: translateX(-20px);
+    }
+
+    40% {
+      transform: translateX(20px);
+    }
+
+    60% {
+      transform: translateX(-30px);
+    }
+
+    80% {
+      transform: translateX(30px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .photos {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .photo_bali_first {
+    border-radius: 5px;
+    margin-right: 24px;
+    width: 225px;
+    height: 300px;
+  }
+
+  .photo_bali_second {
+    border-radius: 5px;
+    margin-right: 24px;
+    width: 202px;
+    height: 270px;
+  }
+
+  .photo_bali_third {
+    border-radius: 5px;
+    width: 150px;
+    height: 270px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 1024px) {
+  body {
+    background: no-repeat url(img/backgroundimage2.jpg);
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 59px 0 0 40px;
+  }
+
+  .header {
+    margin: 5px 36px 110px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 105px;
+    height: 40px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    width: 360px;
+  }
+
+  .menu__item {
+    text-decoration: none;
+    margin-right: 26px;
+    font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .menu__item:last-child {
+    margin-right: 0;
+  }
+
+  .menu__item:hover {
+    color: #d4bea3;
+    transition: 0.5s;
+  }
+
+  .main__section {
+    display: flex;
+  }
+
+  .main__content {
+    margin: 0 61px 0 0;
+  }
+
+  .main__title {
+    font: 700 200px/265px "pt_serifbold", arial, helvetica, sans-serif;
+    color: #f8eee4;
+    opacity: 0.4;
+    margin: 0;
+    margin-top: -11px;
+  }
+
+  .main__subtitle {
+    font: 700 70px/92px "pt_serifbold", arial, helvetica, sans-serif;
+    margin: -106px 0 15px 60px;
+    color: #f8eee4;
+  }
+
+  .main__text {
+    font: 16px/19px "museo_sans_cyrl300", arial, helvetica, sans-serif;
+    color: #f8eee4;
+    width: 390px;
+    margin: 0 0 24px 20px;
+  }
+
+  .main__button {
+    font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    background: #d4bea3;
+    border-radius: 48px;
+    padding: 12px 62px;
+    color: #fff;
+    margin-left: 20px;
+  }
+
+  .main__button:hover {
+    animation: movement 2s;
+  }
+
+  @keyframes movement {
+    0% {
+      transform: translateX(0);
+    }
+
+    20% {
+      transform: translateX(-20px);
+    }
+
+    40% {
+      transform: translateX(20px);
+    }
+
+    60% {
+      transform: translateX(-30px);
+    }
+
+    80% {
+      transform: translateX(30px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .photos {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .photo_bali_first {
+    border-radius: 5px;
+    margin-right: 24px;
+    width: 225px;
+    height: 300px;
+  }
+
+  .photo_bali_second {
+    border-radius: 5px;
+    margin-right: 24px;
+    width: 202px;
+    height: 270px;
+  }
+
+  .photo_bali_fourth {
+    border-radius: 5px;
+    width: 39px;
+    height: 270px;
+  }
+
+  .photo_bali_third {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    background: url(img/backgroundimagemobile.jpg);
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 40px 0 0 17px;
+  }
+
+  .header {
+    margin: 0 30px 100px 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 104px;
+    height: 44px;
+  }
+
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    transform: rotate(0);
+    background-color: #000;
+    top: -25px;
+    right: 10px;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    transform: rotate(90deg);
+    background-color: #000;
+    top: -25px;
+    right: 10px;
+  }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 53px;
+    right: 33px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 5;
+    color: #000;
+  }
+
+  .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fcf5ed;
+    transition-duration: 0.5s;
+  }
+
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 375px;
+    height: 100%;
+    margin: 0;
+    padding: 186px 0;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.5s;
+    z-index: 1;
+  }
+
+  .menu__item {
+    position: relative;
+    display: block;
+    color: #000;
+    font: bold 30px/36px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .menu__item:hover {
+    background-color: #cfd8dc;
+  }
+
+  .main__section {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .main__content {
+    width: 350px;
+    margin: 0;
+  }
+
+  .main__title {
+    font: 700 170px/220px "pt_serifbold", arial, helvetica, sans-serif;
+    color: #f8eee4;
+    opacity: 0.4;
+    margin: 0;
+    margin-top: -41px;
+  }
+
+  .main__subtitle {
+    font: 700 60px/78px "pt_serifbold", arial, helvetica, sans-serif;
+    margin: -75px 0 37px 60px;
+    color: #f8eee4;
+  }
+
+  .main__text {
+    font: 18px/22px "museo_sans_cyrl300", arial, helvetica, sans-serif;
+    color: #f8eee4;
+    width: 289px;
+    margin: 0 0 34px 27px;
+    text-align: center;
+  }
+
+  .main__button {
+    font: 16px/19px "museo_sans_cyrl500", arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    background: #d4bea3;
+    border-radius: 48px;
+    padding: 12px 62px;
+    color: #fff;
+    margin-left: 60px;
+  }
+
+  .main__button:hover {
+    animation: movement 2s;
+  }
+
+  @keyframes movement {
+    0% {
+      transform: translateX(0);
+    }
+
+    20% {
+      transform: translateX(-20px);
+    }
+
+    40% {
+      transform: translateX(20px);
+    }
+
+    60% {
+      transform: translateX(-30px);
+    }
+
+    80% {
+      transform: translateX(30px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .photos {
+    display: none;
+  } }
