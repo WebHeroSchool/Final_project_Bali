@@ -131,7 +131,7 @@ body {
   height: 270px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 376px) {
   .hamburger-menu {
     display: none;
   }
@@ -143,7 +143,7 @@ body {
   }
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 1400px) and (max-width: 1920px) {
   body {
     background: no-repeat url(img/backgroundimage.jpg);
     width: 100%;
@@ -288,7 +288,7 @@ body {
   }
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1025px) and (max-width: 1366px) {
   body {
     background: no-repeat url(img/backgroundimage.jpg);
     width: 100%;
@@ -430,7 +430,7 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 376px) and (max-width: 1024px) {
   body {
     background: no-repeat url(img/backgroundimage2.jpg);
     width: 100%;
@@ -638,9 +638,7 @@ body {
     color: #000;
   }
 
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
+  .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -769,5 +767,4 @@ body {
 
   .photos {
     display: none;
-  }
-}
+  } }
